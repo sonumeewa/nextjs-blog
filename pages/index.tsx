@@ -21,9 +21,11 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Developer | IIITian | Netflix</p>
+        <p>The question is not How, But When?</p>
         <p>
-          (This is my personal blog, feel free to connect with me on{' '}
+          (I am a prefinal year IT major at IIIT Gwalior. I am exploring the
+          vast world of javascript nowadays. This is my personal blog, built
+          using Next.js. You can connect with me on{' '}
           <a href='https://linkedin.com/in/sonumeewa'>Linkedin</a>.)
         </p>
       </section>
