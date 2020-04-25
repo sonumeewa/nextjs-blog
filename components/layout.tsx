@@ -6,15 +6,18 @@ import Link from 'next/link';
 const name = 'Vipul Barodiya';
 export const siteTitle = 'Vipul Barodiya | Blog';
 
-export default function Layout({ children, home }) {
+export default function Layout({
+  children,
+  home,
+}: {
+  children: React.ReactNode;
+  home?: boolean;
+}) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel='icon' href='/favicon.ico' />
-        <meta
-          name='description'
-          content='Learn how to build a personal website using Next.js'
-        />
+        <meta name='description' content='Personal Blog' />
         <meta
           property='og:image'
           content={`https://og-image.now.sh/${encodeURI(
